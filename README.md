@@ -110,11 +110,9 @@ in Browser:
 ```
 
 in Browser :
+![Screenshot (138)](https://github.com/Utsav1256/Dude_it-s_CSS/assets/94625893/6b32f6f2-5658-48c0-b4a6-5766bae1c16e)
 
-`IMAGE`
-`Personal growth`
-
-- Here, we can see ewhats happening, is the paragraph is going below the image, that is Normal Document Flow, right!!
+- Here, we can see whats happening, is the paragraph is going below the image, that is Normal Document Flow, right!!
 
 - Now we will add float property here:
 
@@ -125,8 +123,7 @@ img {
 ```
 
 in Broser:
-
-`IMAGE` `Personal growth`
+![Screenshot (137)](https://github.com/Utsav1256/Dude_it-s_CSS/assets/94625893/07d54c78-1206-4c65-b346-64d67d8237d3)
 
 - it is floating the image to the left-most area of the parent element.
 
@@ -137,7 +134,6 @@ img {
   float: right;
 }
 ```
-
-`Personal growth` `IMAGE`
+![Screenshot (136)](https://github.com/Utsav1256/Dude_it-s_CSS/assets/94625893/0d5b7142-5e96-49c9-a24c-970a7a09feb5)
 
 - it is floating the image to the right-most area of the parent element.
