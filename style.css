@@ -1,6 +1,9 @@
-p, a {
+/* p, a {
     width: 50%;
     margin: 20px;
     padding: 30px;
     border: 1px solid black;
+} */
+img {
+  /* float: left; */
 }

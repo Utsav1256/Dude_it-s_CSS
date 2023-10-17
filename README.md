@@ -87,8 +87,57 @@ a {
 
 in Browser:
 
-Hii Buddy!
-How are you?
-How are you doing?
+`Hii Buddy!`
+`How are you?`
+`How are you doing?
+`
 
 - The normal document flow is from top to bottom.
+
+## Floating Elements
+
+- Floating is one of the most used techniques in page layouts for positioning content.
+- And it lets us position an element to the very left or the very right of a parent element and in doing so it remove itself from that Normal Document Flow that we have been talking about.
+- Initially it was designed so that a developer could wrap a text around an image, but nowdays it's useful for other things too, like making text columns or grid galleries, etc.
+
+### Let's wrap a text around the image
+
+```html
+<body>
+  <img src="./images/personal.png" alt="" width="150px" height="160px" />
+  <p>Personal growth</p>
+</body>
+```
+
+in Browser :
+
+`IMAGE`
+`Personal growth`
+
+- Here, we can see ewhats happening, is the paragraph is going below the image, that is Normal Document Flow, right!!
+
+- Now we will add float property here:
+
+```css
+img {
+  float: left;
+}
+```
+
+in Broser:
+
+`IMAGE` `Personal growth`
+
+- it is floating the image to the left-most area of the parent element.
+
+- we are taking it out from the Normal Document Flow and we arepositioning it to the very left of the document or the very left of the parent element.
+
+```css
+img {
+  float: right;
+}
+```
+
+`Personal growth` `IMAGE`
+
+- it is floating the image to the right-most area of the parent element.
